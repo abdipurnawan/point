@@ -9,5 +9,6 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerviewTanaman"
         android:layout_width="match_parent"
+        android:background="@color/grey"
         android:layout_height="match_parent" />
 </RelativeLayout>
