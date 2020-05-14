@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">pointEarth</string>
+    <string-array name="kategori">
+        <item>Tanaman Hias</item>
+        <item>Tanaman Akuatik</item>
+        <item>Tanaman Obat</item>
+        <item>Tanaman Buah</item>
+        <item>Tanaman Peneduh</item>
+        <item>Tanaman Pewarna</item>
+        <item>Tanaman Serat</item>
+        <item>Tanaman Beracun</item>
+    </string-array>
+    <string-array name="tanamanHias">
+        <item>Anggrek</item>
+        <item>Bonsai Beringin</item>
+        <item>Bougenville</item>
+        <item>Kaktus Hias</item>
+        <item>Lily</item>
+        <item>Bunga Matahari</item>
+        <item>Mawar</item>
+        <item>Melati</item>
+    </string-array>
+    <string-array name="tanamanAkuatik">
+        <item>Apu Apu</item>
+        <item>Bambu Air</item>
+        <item>Calla Lily</item>
+        <item>Eceng Gondok</item>
+        <item>Lotus</item>
+        <item>Papyrus Payung</item>
+        <item>Pisang Air</item>
+        <item>Teratai</item>
+    </string-array>
+    <string-array name="tanamanObat">
+        <item>Belimbing Wuluh</item>
+        <item>Jahe</item>
+        <item>Jeruk Nipis</item>
+        <item>Kayu Manis</item>
+        <item>Kencur</item>
+        <item>Kunyit</item>
+        <item>Lidah Buaya</item>
+        <item>Mengkudu</item>
+        <item>Seledri</item>
+        <item>Temulawak</item>
+    </string-array>
+    <string-array name="tanamanBuah">
+        <item>Apel</item>
+        <item>Durian</item>
+        <item>Jeruk</item>
+        <item>Kelapa</item>
+        <item>Mangga</item>
+        <item>Nanas</item>
+        <item>Pepaya</item>
+        <item>Rambutan</item>
+        <item>Stroberi</item>
+    </string-array>
+    <string-array name="tanamanPeneduh">
+        <item>Pohon Angsana</item>
+        <item>Pohon Asam Jawa</item>
+        <item>Pohon Beringin</item>
+        <item>Pohon Flamboyan</item>
+        <item>Pohon Kiara Payung</item>
+        <item>Pohon Pucuk Merah</item>
+        <item>Pohon Tabebuya</item>
+        <item>Pohon Tanjung</item>
+    </string-array>
+    <string-array name="tanamanPewarna">
+        <item>Blueberry</item>
+        <item>Buah Naga</item>
+        <item>Coklat</item>
+        <item>Duwet</item>
+        <item>Pandan</item>
+        <item>Rosella</item>
+        <item>Secang</item>
+        <item>Ubi Ungu</item>
+    </string-array>
+    <string-array name="tanamanSerat">
+        <item>Serat Flax</item>
+        <item>Serat Jute</item>
+        <item>Serat Kapas</item>
+        <item>Serat Rami</item>
+        <item>Serat Sunn Hemp</item>
+    </string-array>
+    <string-array name="tanamanBeracun">
+        <item>Birthwort</item>
+        <item>Bunga Oleander</item>
+        <item>Cicuta</item>
+        <item>Gympie Gympie</item>
+        <item>Kacang Racun</item>
+        <item>Kecubung</item>
+        <item>Kembang Terompet</item>
+        <item>Mata Boneka</item>
+        <item>Pohon Machineel</item>
+        <item>Singkong Karet</item>
+        <item>Pohon Jarak</item>
+        <item>Sri Rejeki</item>
+    </string-array>
+</resources>
