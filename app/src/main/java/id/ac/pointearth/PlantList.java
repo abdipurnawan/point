@@ -15,7 +15,7 @@ public class PlantList extends AppCompatActivity {
     RecyclerView recyclerView;
 
     int imagee;
-    String nama[];
+    String nama[], asal[];
     int gambar[];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class PlantList extends AppCompatActivity {
         setContentView(R.layout.activity_plant_list);
         getData();
         recyclerView = findViewById(R.id.recyclerviewTanaman);
-        PlantListAdapter plantListAdapter = new PlantListAdapter(this, nama, gambar);
+        PlantListAdapter plantListAdapter = new PlantListAdapter(this, nama, gambar, asal);
         recyclerView.setAdapter(plantListAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -31,9 +31,10 @@ public class PlantList extends AppCompatActivity {
 
     }
     private void getData(){
-        if(getIntent().hasExtra("nama") && getIntent().hasExtra("gambar")){
+        if(getIntent().hasExtra("nama") && getIntent().hasExtra("gambar") && getIntent().hasExtra("asal")){
             nama = getIntent().getStringArrayExtra("nama");
             gambar = getIntent().getIntArrayExtra("gambar");
+            asal = getIntent().getStringArrayExtra("asal");
         }else{
             Toast.makeText(this, "No Data", Toast.LENGTH_SHORT).show();
         }

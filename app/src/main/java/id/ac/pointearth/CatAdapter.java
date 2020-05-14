@@ -14,16 +14,17 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class CatAdapter extends RecyclerView.Adapter<CatAdapter.CatViewHolder> {
 
-    String kategori[],daftarTanaman[][];
+    String kategori[],daftarTanaman[][], daftarAsal[][];
     int image[], daftarGambar[][];
     Context context;
 
-    public CatAdapter(Context ct, String s1[], int img[], String daftar[][], int gambarTanaman[][]) {
+    public CatAdapter(Context ct, String s1[], int img[], String daftar[][], int gambarTanaman[][], String asalTanaman[][]) {
         context = ct;
         kategori = s1;
         image = img;
         daftarTanaman =  daftar;
         daftarGambar = gambarTanaman;
+        daftarAsal = asalTanaman;
     }
 
     @NonNull
@@ -45,6 +46,7 @@ public class CatAdapter extends RecyclerView.Adapter<CatAdapter.CatViewHolder> {
                 Intent intent = new Intent(context, PlantList.class);
                 intent.putExtra("nama", daftarTanaman[position]);
                 intent.putExtra("gambar", daftarGambar[position]);
+                intent.putExtra("asal", daftarAsal[position]);
                 context.startActivity(intent);
             }
         });

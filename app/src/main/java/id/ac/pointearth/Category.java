@@ -14,8 +14,9 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class Category extends AppCompatActivity {
 
     RecyclerView recyclerView;
-    //DEKLARASI STRING NAMA TANAMAN
+    //DEKLARASI STRING NAMA, ASAL TANAMAN
     String s1[], hias[], akuatik[], obat[], buah[], peneduh[], pewarna[], serat[], beracun[], daftar[][];
+    String asalHias[], asalAkuatik[], asalObat[], asalBuah[], asalPeneduh[], asalPewarna[], asalSerat[], asalBeracun[], daftarAsal[][];
 
     //DEKLARASI GAMBAR
     int image[] = {R.drawable.kategori_hias, R.drawable.kategori_akuatik, R.drawable.kategori_obat, R.drawable.kategori_buah,
@@ -45,18 +46,11 @@ public class Category extends AppCompatActivity {
         setContentView(R.layout.activity_category);
 
         recyclerView = findViewById(R.id.recyclerview);
-        s1 = getResources().getStringArray(R.array.kategori);
-        hias = getResources().getStringArray(R.array.tanamanHias);
-        akuatik = getResources().getStringArray(R.array.tanamanAkuatik);
-        obat = getResources().getStringArray(R.array.tanamanObat);
-        buah = getResources().getStringArray(R.array.tanamanBuah);
-        peneduh = getResources().getStringArray(R.array.tanamanPeneduh);
-        pewarna = getResources().getStringArray(R.array.tanamanPewarna);
-        serat = getResources().getStringArray(R.array.tanamanSerat);
-        beracun = getResources().getStringArray(R.array.tanamanBeracun);
-        daftar = new String[][]{hias, akuatik, obat, buah, peneduh, pewarna, serat, beracun};
 
-        CatAdapter catAdapter = new CatAdapter(this, s1, image, daftar, daftarImage);
+        getNama();
+        getAsal();
+
+        CatAdapter catAdapter = new CatAdapter(this, s1, image, daftar, daftarImage, daftarAsal);
         recyclerView.setAdapter(catAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -85,5 +79,30 @@ public class Category extends AppCompatActivity {
                 return false;
             }
         });
+    }
+
+    private void getNama(){
+        s1 = getResources().getStringArray(R.array.kategori);
+        hias = getResources().getStringArray(R.array.tanamanHias);
+        akuatik = getResources().getStringArray(R.array.tanamanAkuatik);
+        obat = getResources().getStringArray(R.array.tanamanObat);
+        buah = getResources().getStringArray(R.array.tanamanBuah);
+        peneduh = getResources().getStringArray(R.array.tanamanPeneduh);
+        pewarna = getResources().getStringArray(R.array.tanamanPewarna);
+        serat = getResources().getStringArray(R.array.tanamanSerat);
+        beracun = getResources().getStringArray(R.array.tanamanBeracun);
+        daftar = new String[][]{hias, akuatik, obat, buah, peneduh, pewarna, serat, beracun};
+    }
+
+    private void getAsal(){
+        asalHias = getResources().getStringArray(R.array.tanamanHias);
+        asalAkuatik = getResources().getStringArray(R.array.tanamanAkuatik);
+        asalObat = getResources().getStringArray(R.array.tanamanObat);
+        asalBuah = getResources().getStringArray(R.array.tanamanBuah);
+        asalPeneduh = getResources().getStringArray(R.array.tanamanPeneduh);
+        asalPewarna = getResources().getStringArray(R.array.tanamanPewarna);
+        asalSerat = getResources().getStringArray(R.array.tanamanSerat);
+        asalBeracun = getResources().getStringArray(R.array.tanamanBeracun);
+        daftarAsal = new String[][]{asalHias, asalAkuatik, asalObat, asalBuah, asalPeneduh, asalPewarna, asalSerat, asalBeracun};
     }
 }
