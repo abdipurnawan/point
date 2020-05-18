@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //FUNGSI TANAMAN
+    <string-array name="fungsiHias">
+        <item>1.	Sebagai hiasan
+\n\n2.	Dapat menghilangkan polusi serta racun di udara
+\n\n3.	Mencegah terjadinya penuaan dini
+\n\n4.	Sebagai penghilang stress
+</item>
+        <item>1.	Mengurangi stress
+\n\n2.	Melatih kreativitas bagi otak
+\n\n3.	Melatih memori otak
+\n\n4.	Memberi energi pada rumah
+</item>
+        <item>1.	Obat batuk
+\n\n2.	Menurunkan demam
+\n\n3.	Membantu menyembuhkan radang tenggorokan
+\n\n4.	Membantu mengoptimalkan fungsi liver
+\n\n5.	Meningkatkan sistem pernafasan
+</item>
+        <item>1.	Menjadi tanaman hias
+\n\n2.	Mejadi bahan makanan karena kaya kandungan nutrisi
+\n\n3.	Memperlancar pencernaan
+\n\n4.	Menurunkan risiko kanker
+\n\n5.	Membantu mengendalikan gula darah
+</item>
+        <item>1.	Menghilangkan jerawat
+\n\n2.	Melembabkan kulit wajah
+\n\n3.	Menyeimbangkan kadar air dalam kulit
+\n\n4.	Mempercepat proses regenerasi kuli
+\n\n5.	Mencegah kanker kulit
+</item>
+        <item>1.	Mengatasi penyakit jantung
+\n\n2.	Mengatasi diabetes
+\n\n3.	Mengatasi peradangan
+\n\n4.	Membantu menyembuhkan luka
+\n\n5.	Mendukung fungsi tiroid
+</item>
+        <item>1.	Obat jerawat alami
+\n\n2.	Melembakan kulit wajah
+\n\n3.	Mencerahkan warna bibir
+\n\n4.	Mengatasi peradangan pada kulit
+\n\n5.	Menghambat penuaan dini</item>
+        <item>1.	Melembapkan kulit
+\n\n2.	Melancarkan peredaran darah
+\n\n3.	Menjadikan tidur lebih nyenyak
+\n\n4.	Menurunkan risiko kanker
+</item>
+    </string-array>
+    <string-array name="fungsiAkuatik">
+        <item>1.	Tanaman hias pada kolam
+\n\n2.	Sebagai pembersih air terutama untuk menyerap limbah akibat pencemaran berbahan radioaktif dan logam berat yang terdapat di dalam air.
+\n\n3.	Tumbuhan ini juga mengandung alkaloid, tanin, flavonoid, saponin, minyak, lemak dan glikosid sehingga dapat pula digunakan sebagai bahan obat herbal dalam mengobati demam, batuk rejan, dan pelancar air seni.
+</item>
+        <item>1.	Sebagai Pembersih Kolam
+\n\n2.	Sebagai Pembawa Hoki
+\n\n3.	Sebagai Penenang Jiwa</item>
+        <item>1.	Menjaga Kesehatan Jantung
+\n\n2.	Merawat Luka Bakar
+\n\n3.	Membantu Penyembuhan Tumor Dan Luka Terbuka
+\n\n4.	Mengobati Keluhan atau Penyakit Mata
+\n\n5.	Obat Untuk Serangkaian Penyakit Lain</item>
+        <item>1.	Menyehatkan kulit
+\n\n2.	Antiperadangan
+\n\n3.	Memperlancar pencernaan
+\n\n4.	Laktasi
+\n\n5.	Menurunkan berat badan</item>
+        <item>1. 	Mengatasi Diare
+\n\n2.	Menetralkan Gula Darah dan Lemak Darah
+\n\n3.	Membantu Mengontrol Tekanan Darah
+\n\n4.	Menjaga Daya Tahan Tubuh
+\n\n5.	Membantu Mengatasi Jerawat</item>
+        <item>Membersihkan kolam</item>
+        <item>Menyerap kotoran yang ukurannya sangat lembut dan melayang dalam air, dan dipergunakan sebagai pupuk pertumbuhannya sehingga kondisi air tampak lebih jernih dan bersih.
+</item>
+        <item>1.	Mengobati Batuk Darah
+\n\n2.	Menormalkan Tekanan Darah
+\n\n3.	Mengatasi Bengkak dan Iritasi
+\n\n4.	Menghilangkan Insomnia
+\n\5.	Mengatasi Sakit Diare</item>
+    </string-array>
+    <string-array name="fungsiObat">
+        <item>1.	Meningkatkan imunitas tubuh
+\n\n2.	Mencegah kanker
+\n\n3.	Mengontrol tekanan darah
+\n\n4.	Mengontrol gula darah dan kolestrol
+\n\n5.	Melancarkan pencernaan</item>
+        <item>1.	Anti penuaan dan kanker
+\n\n2.	Meredakan nyeri haid
+\n\n3.	Menurunkan glukosa darah sampai kolesterol
+\n\n4.	Memperkuat sistem imun
+\n\n5.	Menangkal infeksi bakteri dan virus</item>
+        <item>1.	Meremajakan kulit
+\n\n2.	Memerangi infeksi
+\n\n3.	Membantu penurunan berat badan
+\n\n4.	Menurunkan gula darah
+\n\n5.	Mengurangi risiko penyakit jantung</item>
+        <item>1.	Mendukung kesehatan otak
+\n\n2.	Tinggi zat antioksidan
+\n\n3.	Memperlancar siklus menstruasi
+\n\n4.	Mengatasi peradangan pada wajah
+\n\n5.	Meningkatkan imunitas</item>
+        <item>1.	Mengobati batuk
+\n\n2.	Menghilangkan stress
+\n\n3.	Mengobati diare
+\n\n4.	Bahan dasar jamu
+\n\5.	Mencegah karies gigi</item>
+        <item>1.	Sebagai bumbu dalam masakan
+\n\n2.	Sebagai pewarna alami
+\n\n3.	Sebagai obat anti gatal
+\n\n4.	Dapat mengurangi pembengkakan selaput lendir mulut
+\n\n5.	Menyembuhkan nyeri sendi</item>
+        <item>1.	Menjadi bahan untuk cuci tangan
+\n\n2.	Mencegah penuaan dini
+\n\n3.	Merawat rambut dan kulit kepala
+\n\n4.	Menyebuhkan luka bakar
+\n\n5.	Obat diabetes</item>
+        <item>1.	Meningkatakan kesehatan otak
+\n\n2.	Mendukung kesehatan jantung
+\n\n3.	Meningkatkan kesehatan kulit
+\n\4.	Menurunkan kolesterol</item>
+        <item>1.	Menurunkan tekanan darah
+\n\n2.	Meringankan nyeri sendi
+\n\n3.	Mencegah kanker
+\n\n4.	Membantu menurunkan berat badan</item>
+        <item>1.	Mengatasi masalah pencernaan
+\n\n2.	Mengatasi osteoarthritis
+\n\n3.	Anti bakteri dan anti jamur
+\n\n4.	Obat jerawat</item>
+    </string-array>
+    <string-array name="fungsiBuah">
+        <item>1.	Cegah penyakit stroker
+\n\n2.	Bantu menurunkan berat badan
+\n\n3.	Memelihara kesehatan jantung
+\n\n4.	Meningkatkan kinerja otak
+\n\n5.	Baik untuk pengidap diabetes
+\n\n6.	Melawan kanker</item>
+        <item>1.	Meredakan anemia
+\n\n2.	Membantu menjaga kesehatan tulang
+\n\n3.	Membantu meringankan depresi dan meningkatan kualitas tidur
+\n\n4.	Melawan kanker
+\n\n5.	Membantu sistem pencernaan
+\n\n6.	Mencegah penuaan dini
+\n\n7.	Meningkatkan kesuburdan dan menyembuhkan PCOS
+</item>
+        <item>1.	Melancarkan pencernaan
+\n\n2.	Mengatur tekanan darah tinggi
+\n\n3.	Mencegah kanker
+\n\n4.	Mencegah penyakit jantung
+\n\n5.	Meningkatkan kekebalan tubuh
+\n\n6.	Memurnikan darah
+\n\n7.	Memperkuat tulang
+\n h.	Memperkuat gigi
+\n i.	Membantu mencegah asma
+\n j.	Mencegah penyakit ginjal
+</item>
+        <item>1.	Pada bagian akar yakni dapat dijadikan sebagai bahan baku pembuatan bir dan zat pewarna.
+\n\n2.	Pada bagian batang yakni dimanfaatkan sebagai bahan bakau perabotan rumah, mebel, sebagai kayu ataupun kayu bakar.
+\n\n3.	Bagian daun yakni daun kelapa dapat digunakan sebagai bahan pembungkus ataupun dianyam untuk dapat dijadikan atap rumah, sedangkan lidinya biasa digunakan untuk membuat sapu.
+\n\n4.	Bagian bunga yakni menghasilkan cairan yang dikenal dengan nama air nira yang memiliki rasa manis, dapat dijadikan sebagai bahan baku pembuatan gula nira ataupun sebagai minuman.
+\n\n5.	Bagian buah yakni untuk bagian ini terdiri dari kulit (sabut), batok, daging kelapa dan air kelapa. Kulit buah (sabut kelapa) sering digunakan sebagai bahan baku dalam pembuatan keset, pada batok kelapa bisa dijadikan arang, buah kelapa untuk konsumsi atau diolah untuk dijadikan minyak kelapa, dan pada air kelapa sebagai penghilang dahaga dan juga bermanfaat sebagai tanaman obat untuk dapat meningkatkan kesehatan pada tubuh.
+</item>
+        <item>1.	Mengurangi kadar kolesterol
+\n\n2.	Pencegah kanger
+\n\n3.	Membakar kalori
+\n\n4.	Menyehatkan kulit wajah
+\n\n5.	Meningkatkan kekebalan tubuh
+</item>
+        <item>1.	Meningkatkan imunitas
+\n\n2.	Menciptakan kolagen
+\n\n3.	Mencegah kanker
+\n\n4.	Menjaga kesehatan mata
+\n\n5.	Mengatur tekanan darah</item>
+        <item>1.	Melancarkan pencernaan
+\n\n2.	Mencegah kanker
+\n\n3.	Menjaga kesehatan jantung
+\n\n4.	Mencegah peradangan kronis
+\n\n5.	Meredakan nyeri menstruasi</item>
+        <item>1.	Mencegah penyakit batu ginjal
+\n\n2.	Menurunkan berat badan
+\n\n3.	Mengatasi diabetes
+\n\n4.	Mempercantik kulit
+\n\n5.	Menjaga kesehatan dan kekuatan rambut</item>
+        <item>1.	Mengurangi flu dan meningkatkan sistem imun
+\n\n2.	Mengendalikan berat badan
+\n\n3.	Mengurangi kolesterol dan risiko penyakit kardiovaskular
+\n\n4.	Mengurangi risiko kanker
+\n\n5.	Baik untuk mata</item>
+    </string-array>
+    <string-array name="fungsiPeneduh">
+        <item>1. Kayu : Kayunya bisa digunakan dalam konstruksi ringan, bisa juga dalam konstruksi berat.
+\n\n2. Daun : Air rendaman daun angsana bisa dimanfaatkan saat keramas agar rambut tumbuh dengan sehat.
+\n\n3. Lainnya : Angsana sering dijadikan sebagai pagar hidup. Pohon ini juga biasa dijadikan pohon pelindung. Akar pohon ini mampu mengikat oksigen yang menjaga kesuburan tanah
+</item>
+        <item>1. Buah : diolah menjadi permen yang memiliki rasa asam dan manis.
+\n\n2. Biji : Biji asam jawa dapat dipergunakan sebagai koagulan (bahan kimia yang dibutuhkan untuk membantu proses pengendapan partikel-partikel kecil) pada proses koagulasi karena memiliki kandungan tannin dalam biji tersebut.
+\n\n3. Lainnya : Beberapa bagian tumbuhan asam jawa juga dapat dimanfaatkan untuk keperluan pangan dan medis. Bunga dan daun asam jawa bisa dikonsumsi sebagai sayuran. Selain dapat dikonsumsi langsung atau diolah menjadi permen, daging buah asam jawa telah dimanfaatkan sebagai bahan baku pembuatan obat-obatan herbal.
+</item>
+        <item>1. Daun : Daun beringin terkenal sebagai sebuah daun yang mempunyai beragam manfaat. Salah satu khasiat yang paling terkenal dari daun pohon beringin adalah mengobati serangan kejang pada anak- anak yang disebabkan karena penyakit panas, mengobati bronchitis, disentri atau infeksi pada usus.
+\n\n2. Lainnya : Pohonnya yang menjulang dan juga rimbun, menjadi tempat berteduh dan juga sumber oksigen atau penghasil oksigen. Saking besarnya pohon beringin ini, dibawahnya seringkali digunakan sebagai tempat beragam aktivitas, dari pangkalan ojek hingga sebagai warung makan. Pohon beringin ini juga berkhasiat sebagai pohon yang bisa menjernihkan mata air yang ada di sekitarnya. Akar dan daun beringin juga mempunyai beragam manfaat untuk menyembuhkan penyakit.
+</item>
+        <item>1. Batang : batang pohon flamboyan cukup besar serta panjang. Sering beberapa orang yang memakai batang kayu ini jadi bahan bangunan. Salah nya yaitu jadi bahan pembuatan pagar rumah.
+\n\n2. Daun dan Biji : ekstrak tumbuhan flamboyan khususnya daun dan bijinya memiliki kandungan alkaloid yang cukup tinggi. Senyawa alkaloid ini diyakini sanggup menghalangi pertumbuhan dan perubahan plasmodium sp, parasit penyebabnya penyakit malaria.
+</item>
+        <item>Di Indonesia, kerai payung banyak ditemukan di pinggir jalan, halaman kantor dan sekolah sebagai pohon peneduh, peredam kebisingan dan pemecah angin. Bentuk tanaman ini cukup menarik dengan daun yang rimbun sehingga memiliki fungsi estetika untuk ditanam di taman, halaman rumah, atau sebagai pagar alam. Tanaman ini juga dapat digunakan pada ruang terbuka hijau sempadan rel kereta api. Daya transpirasi tanaman ini rendah sehingga baik ditanam pada ruang terbuka hijau, dan di dekat sumber air.
+</item>
+        <item>1. Daun : Daun Pucuk Merah dapat memberi khasiat kesehatan jika diminum sebagai teh herbal. Daun tersebut memiliki kandungan antioksidan alami yang efektif menangkal radikal bebas.
+\n\n2. Manfaat Pucuk Merah selanjutnya adalah sebagai pewarna makanan alami. Pigmen oranye-merah dari daun tersebut akan mengeluarkan warna merah yang cantik.
+\n\n3. Lainnya : Pucuk Merah memiliki struktur akar tunggang yang kuat. Akar ini akan menghujam tanah dengan kokoh maka pohon ini sangat cocok dimanfaatkan sebagai tanaman pencegah longsor.
+</item>
+        <item>Manfaat Pohon Tatebuya Selain mempercantik kota, ternyata pohon ini mampu mencegah banjir lho. Ini karena jenis akar tunggang yang dapat menyerap air berlebih Manfaat pohon tabebuya lainnya yaitu untuk mengurangi polusi udara.
+</item>
+        <item>1. Kulit Pohon : Kulit pohon Tanjung sangat bermanfaat bagi kesehatan manusia, yaitu air rebusan kulit pohon bisa menjadi obat kuat, demam, sakit gigi dan menghilangkan bau mulut.
+\n\n2. Daun : Daunnya bermanfaat yaitu sebagai obat sakit dan sariawan.
+\n\n3. Akar : berkhasiat untuk menyembuhkan sakit di tenggorokan dengan cara di campur cuka.
+\n\n4. Bunga : Bunga Tanjung banyak di pakai sebagai pengharum alami baik di sematkan di rambut atau di dalam ruangan.
+\n\n5. Buah : Buah Tanjung bila sudah matang akan berwarna kuning kemerahan, bila di konsumsi dapat menyembuhkan penyakit diare dan lambung.
+</item>
+    </string-array>
+    <string-array name="fungsiPewarna">
+        <item>Buah :Buah ini bernama latin Vaccinium sect. Cyanococcus ini merupakan sumber nutrisi seperti vitamin (A,C,E,K). Blueberry juga mengandung serat, antioksidan, dan mineral.
+\n\nDengan begitu, manfaat blueberry untuk kesehatan dan kecantikan tak perlu diragukan lagi. Sejumlah penelitian telah membuktikan senyawa dalam buah kecil berwarna biru ini dapat membantu mencegah berbagai penyakit kronis seperti kanker, diabetes, dan jantung.
+</item>
+        <item>Dari beberapa media massa disebutkan bahwa buah naga memiliki khasiat untuk ksehatan manusia, diantaranya ialah sebagai penyeimbang kadar gula darah, pencegah kanker usus, pelindung kesehatan mulut, serta pengurang kolestrol, pencegah pendarahan, dan obat keluhan keputihan. Adanya khasiat – khaisat tersebut disebabkan oleh kandungan nutrisi dalam buah yang sangat mendukung kesehatan tubuh manusia. Tabel di bawah ini memberikan gambaran tentang kandungan nutrisi buah naga.</item>
+        <item>Secara umum, kakao dianggap sumber yang kaya antioksidan seperti procyanidins dan flavanoids, yang mungkin memberikan sifat antipenuaan. Cocoa juga mengandung tingkat tinggi flavonoid, khususnya epicatechin, yang mungkin memiliki efek menguntungkan pada kesehatan jantung.</item>
+        <item>Buah duwet kaya dengan kandungan protein, karbohidrat, dan lemak baik yang berguna sebagai sumber energi bagi tubuh. Jika tubuh sedang lemas atau habis olahraga lebih baik makan buah ini untuk mengembalikan tenaga. dan bnyak manfaat lainnya juga dari buah ini</item>
+        <item>Aroma wangi daun pandan dalam makanan tak hanya membuat makanan menjadi lezat, namun juga dapat merangsang dan menambah nafsu makan. Jika anak anda kurang nafsu makan bisa dibuatkan rebusan daun ini dan meminumkan beberapa hari. Daun pandan wangi juga punya khasiat serupa.</item>
+        <item>Ada banyak manfaat bunga rosella bagi kesehatan tubuh karena kandungan mineral dan zat aktifnya. Berikut ini beragam khasiat bunga rosella kering yaitu menjaga kesehatan hati, menurunkan kadar kolesterol, mengendalikan tekanan darah,dan lain-lain.</item>
+        <item>Kandungan bahan aktif dalam kayu secang dipercaya dapat mengobati berbagai penyakit, seperti diabetes, penyakit kulit, diare, hingga disentri.</item>
+        <item>Ubi ungu dapat bermanfaat untuk meningkatkan imunitas tubuh, mengatasi penuaan dini, meredakan peradangan, menjaga Kesehatan hati, dan masih banyak lagi.</item>
+    </string-array>
+    <string-array name="fungsiSerat">
+        <item>Kegunaan serat batang flax ini secara umum adalah untuk bahan pembuatan kain LINEN. Selain itu, flax ini juga dimanfaatkan sebagai bahan pembuatan benang jahit juga sebagai pipa pada pemadam kebakaran.</item>
+        <item>Serat jute pada umumnya sama seperti serat lainnya, yaitu mempunyai kegunaan masing-masing. Untuk serat jute biasanya dibuat untuk berbagai bahan textil seperti karung,terpal,atap, dan isolasi listrik.</item>
+        <item>Manfaat tanaman kapas dalam kesehatan khusus untuk pemakaian luar adalah untuk membantu mengobati memar, luka bakar, panu, herpes, radang pada buah zakar. Cara penggunaanya yaitu dengan menggiling beberapa biji kapas sampai benar-benar halus dan oleskan pada bagian yang luka atau pada bagian yang bermasalah.
+Selain manfaat–manfaat kesehatan diatas, kita tahu bahwa kapas juga memiliki manfaat sangat penting dalam kehidupan kita sehari–hari. Manfaat tersebut antara lain: Sebagai bahan utama pembuatan benang, Bahan utama pembuatan kain dan bahan tekstil, Kapas kecantikan dan kapas pembersih, Cotton Bud, Perban dan plester luka dan Sebagai bahan utama spons bedak.
+</item>
+        <item>Fungsi dari Rami dibagi berdasarkan bagian dari tanaman Rami.
+\n\nDaun : Daunnya memiliki antioksidan yang setara dengan teh hijau.
+\n\nBatang : Dijadikan serat.
+\n\nAkar : dimanfaatkan sebagai benih.
+</item>
+        <item>Kulit pohon : Serat kulit pohon orok orok yang kuat dapat dijadikan tali sepatu, benang, jaring ikan dan tisu. Beberapa orang juga mengolahnya menjadi produk rumah, seperti karpet, meja, sprei hingga anyaman.
+\n\nBatang : Walaupun disebut beracun bagi ternak, benih orok orok masih dijadikan pakan kuda di Uni Soviet dan babi di Zimbabwe. Batang yang tersisa setelah serat dipindahkan juga dapat digunakan sebagai bahan bakar.
+\n\nBiji : biji tanaman orok orok dipercaya dapat membersihkan darah, dan digunakan dalam pengobatan tradisional. Tak hanya itu saja, biji bubuk yang dicampur dengan minyak dapat digunakan sebagai penumbuh rambut alami.
+\n\nDaun : Dalam sebuah penelitian yang dilakukan oleh periset dari Universitas Diponegoro, terhadap kambing perah, daun orok orok memiliki protein yang tinggi. Jadi, mampu mendongkrak produksi susu kambing perah.
+</item>
+    </string-array>
+    <string-array name="fungsiBeracun">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+</resources>

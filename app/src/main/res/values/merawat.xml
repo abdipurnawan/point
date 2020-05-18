@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //CARA MERAWAT
+    <string-array name="merawatHias">
+        <item>1.	Melakukan penyiraman rutin dua kali sehari
+\n\n2.	Memberikan pupuk 3 kali seminggu
+\n\n3.	Membersihkan lingkungan sekitar bunga dari gulma dan kotoran kotoran lainnya.
+</item>
+        <item>1.	Penggantian pot ketika bonsai sudah mulai membesar
+\n\n2.	Menyiram secara rutin agar tanah tetap lembab
+\n\n3.	Jemur dibawah sinar matahari
+\n\n4.	Pemangkasan pada cabang cabang yang kurang baik agar tetap terlihat cantik
+\n\n5.	Pembasmian hama dengan menyemprotkan insektisida
+</item>
+        <item>1.	Rutin melakukan penyiraman karena akar yang baru tumbuh membutuhkan jumlah air yang banyak dibandingkan akar yang sudah tumbuh besar.
+\n\n2.	Letakkan bunga ini pada sinar matahari karena bunga ini membutuhkan banyak asupan sinar matahari.
+\n\n3.	Pemupukan secara berkala dalam jumlah yang sewajarnya.
+\n\n4.	Melakukan pemangkasan agar tanamannya tidak bersulur kemana mana
+</item>
+        <item>1.	Pastikan kaktus mendapatkan asupan cahaya yang cukup
+\n\n2.	Pilih pot dengan lubang dibawahnya
+\n\n3.	Jangan disiram terlalu sering, teknik yang digunakan untuk menyiram yaitu disemprot
+\n\n4.	Beri pupuk secara berkala
+\n\n5.	Pastikan air tidak mengendap pada daun</item>
+        <item>1.	Beri pupuk saat pertama kali akar mulai tumbuh, lalu sekali lagi sebulan kemudian.
+\n\n2.	Berikan lily cukup air.
+\n\n3.	Lindungi dari suhu yang dingin
+\n\n4.	Pangkas tanaman dan biarkan paling tidak 2/3 batang tetap utuh</item>
+        <item>1.	Tempatkan bunga di area yang terlindung dari angin
+\n\n2.	Perhatikan pH dan tingkat penyerapan pada tanah
+\n\n3.	Memperhatikan jarak penanaman
+\n\n4.	Berikan pupuk setelah bunga berusia satu bulan
+\n\n5.	Setelah bunga berusia 3 bulan lakukan penyiangan dan pemilihan.</item>
+        <item>1.	Melakukan penyiraman yang tepat jangan terlalu banyak hingga menjadi genangan air dalam pot
+\n\n2.	Pemberian pupuk agar tumbuh lebih subur.
+\n\n3.	Menjaga tanaman dari serangan hama</item>
+        <item>1.	Media tanam yang digunakan adalah tanah berhumus yang gembur dan mempunyai sistem drainase bagus.
+\n\n2.	Memperhatikan kebutuhan pencahayaan agar cepat berbunga
+\n\n3.	Melakukan pemangkasan tanaman agar merangsang pertumbuhan bunga bunga baru menjadi lebih sering dan lebih lebat
+\n\n4.	Memberikan pupuk pada waktu tanaman sudah berusia satu minggu pasca penanaman
+</item>
+    </string-array>
+    <string-array name="merawatAkuatik">
+        <item>1.	Apu apu juga termasuk kategori tanaman hias yang bandel, tidak butuh banyak perawatan, mudah berkembang biak apalagi bila terkena sinar matahari sepanjang hari.
+\n\n2.	Daun yang menguning harus segera dibuang agar tumbuh lagi tunas daun yang baru dan hijau.
+\n\n3.	Apabila tanaman telah dewasa, akan tumbuh batang baru pada ketiak daunnya, lalu keluar tunas baru dan akar baru. Untuk memperbanyak atau memindahkan, potong batang tersebut bila anaknya telah keluar akar.
+</item>
+        <item>1.	Kondisi air harus dijaga kebersihannya dan jangan biarkan tercemar oleh kotoran, karena dapat mengakibatkan bambu air membusuk.
+\n\n2.	Ganti air satu minggu sekali agar terjaga kebersihannya.
+\n\n3.	Bunga bambu air akan tumbuh dengan baik jika ditanam secara berkelompok, tetapi jika sudah memenuhi batas ukuran polybag maka sebagian harus dipindahkan ke polybag lain.
+\n\n4.	Kemampuan fotosintesis yang tinggi sangat dianjurkan untuk meletakkan tanaman bunga bambu air terkena sinar matahari yang cukup.
+</item>
+        <item>1.	Cukup letakkan pada tempat yang teduh
+\n\n2.	Penyiraman dilakukan rutin di awal awal penanaman,
+\n\n3.	Setelah itu hanya lakukan sesekali saja untuk menjaga tanah tetap lembab.
+\n\n4.	Saat musim kemarau, penyiraman dilakukan lebih sering agar tanaman tidak layu.
+\n\n5.	Sementara itu, pemupukan dilakukan setiap 10 – 12 hari sekali.</item>
+        <item>-</item>
+        <item>1.	Letakkan tanaman lotus di tempat yang terkena sinar matahari langsung,
+\n\n2.	Hindari tempat yang terkena angin agar tangkai lotus tidak mudah patah karena tertiup angin,
+\n\n3.	Semprot bunga lotus dengan pestisida 2 minggu sekali agar terhindar dari kutu daun, apalagi saat musim hujan tiba,
+\n\n4.	Berika pupuk cair secara berkala sekitar 2 bulan sekali agar tanaman mendapatkan cukup nutrisi juga zat hara,
+\n\n5.	Sesekali pangkaslah daun lotus yang kering dan layu agar tetap terlihat cantik, dan
+\n\n6.	Cegah air yang ditanami lotus dari sarang nyamuk dengan memasukkan ikan agar bisa memakan jentik jentiknya.
+</item>
+        <item>-</item>
+        <item>1.	Tanaman tanaman liar dapat menghambat tumbuhnya pohon pisang dengan baik. Jadi perhatikan pertumbuhan tanaman tanaman liar tersebut dan segera singkirkan.
+\n\n2.	Pohon pisang yang sudah tumbuh besar memiliki daun besar dan lebar yang mudah mengering. Pangkas daun yang mengering dan sisakan daun segarnya. Jika tidak dipangkas, daun kering itu akan mengeluarkan gas yang bisa membuat daun segar lainnya ikut mengering.
+</item>
+        <item>1.	Memerlukan penyinaran matahari penuh akan tumbuh optimal.
+\n\n2.	Untuk mengontrol pertumbuhannya, hanya perlu melakukan pemangkasan.
+\n\n3.	Jika dibiarkan, daun yang tumbuh lebat menutupi kolam dapat mengurangi masuknya sinar matahari ke kolam. Ini bisa mengganggu pertumbuhan ikan dan tanaman air lainnya di kolam.
+</item>
+    </string-array>
+    <string-array name="merawatObat">
+        <item>1.	Rutin melakukan penyiraman setiap hari
+\n\n2.	Berikan pupuk NPK setelah tiga bulan penanaman
+\n\n3.	Melakukan penyiangan pada rumput liar, gulma, dan tanaman penggangu lainnya.
+\n\n4.	Penyemprotan pestisida atau fungisida tiap tiga bulan sekali</item>
+        <item>1.	Melakukan penyiraman setiap hari secukupnya.
+\n\n2.	Pemupukan dilakukan di awal tanam menggunakan pupuk kandang atau pupuk organik.
+\n\n3.	Lakukan penyiangan setiap dua atau tiga minggu sekali. Bersihkan gulma atau rumput liar yang tumbuh di sekitar tanaman jahe.
+</item>
+        <item>1.	Memberikan nutrisi dalam hal ini pupuk berkualitas
+\n\n2.	Lakukan pemangkasan secara rutin
+\n\n3.	Lakukan penyiraman secara berkala
+</item>
+        <item>1.	Penyulaman setelah tanaman ditanamn sekitar 3 bulan
+\n\n2.	Pemupukan yang sebaiknya dilakukan pada umur 3 sampai 4 bulan
+\n\n3.	Penyiangan gulma setelah berumur 2 sampai 4 tahun</item>
+        <item>1.	Penyiangan pada tanaman kencur yang dilakukan pada minggu ke 2 setelah tanam
+\n\n2.	Mulching penutupan tanah dengan menggunakan ampas perasan tebu
+\n\n3.	Pemupukan terhadap kencur yang sudah membentuk daun sempurna
+\n\n4.	Penggemburan tanah pada saat tanaman berumur 3 bulan</item>
+        <item>1.	Melakukan penyiangan untuk menghilangkan hama yang tidak diinginkan
+\n\n2.	Menimbun Kembali tanah yang berada di perakaran yang terbawa oleh air
+\n\n3.	Menggunakan pupuk tanpa bahan kimia
+\n\n4.	Pemberian pestisida secara berkala dan teratur</item>
+        <item>1.	Letakkan tanamanan lidah buaya di tempat yang teduh
+\n\n2.	Melakukan penyiraman jika tanahnya sudah terlihat agak kering
+\n\n3.	Memisahkan tunas baru yang tumbuh mencapai 10 cm, agar tidak menyedot nutrisi dari pohon induk</item>
+        <item>1.	Melakukan penyiraman
+\n\n2.	Melakukan penyiagan terhadap gulma atau rumput liar
+\n\n3.	Pemupukan secara rutin</item>
+        <item>1.	Penyiraman setiap pagi dan sore hingga berumur satu minggu
+\n\n2.	Pemberian pupuk organic cair
+\n\n3.	Menjaga sanitasi kebun agar terhindar dari penyakit dan hama</item>
+        <item>1.	Penyulaman : Menanam kembali tanaman yang tidak tumbuh atau mati dengan tanaman baru
+\n\n2.	Penyiangan : Membersihkan tanaman liar dan juga gulma yang menghambat pertumbuhan temulawak
+\n\n3.	Pembubunan : Melakukan penimbunan terhadap tanaman dengan tujuan untuk membersihkan tanaman dan menghambat perkembangan hama dan penyakit
+\n\n4.	Penyiraman : penyiraman pada temulawak ini sebaiknya dilakukan dua kali dalam sehari, dan juga harus tidak berlebihan serta kekurangan pada media tanah.
+\n\n5.	Pemupukan : Pemupukan pada tanaman ini biasanya menggunakan pupuk organik dan anorganik, sekitar 2 sampai 3 bulan sekali bertujuan untuk mempercepat pertumbuhan dan juga mengemburkan media tanah.
+</item>
+    </string-array>
+    <string-array name="merawatBuah">
+        <item>1.	Pilih bibit unggulan yang tidak mandul.
+\n\n2.	Penyayatan batang pohon agar hasil fotosintetsis lebih difokuskan untuk membentuk buah.
+\n\n3.	Pemupukan pada pohon untuk merangsang pertumbuhan serta pembentukan buah.
+\n\n4.	Penyiraman secara teratur agar zat zat makanan dalam tanah lebih mudah diserap.
+\n\n5.	Pemangkasan bagian pohon agar zat makanan yang hendak diberikan untuk pembentukan tunas ditimbun untuk pembentukan buah pada pohon apel.
+\n\n6.	Pemotongan akar dipercaya mampu menghasilkan buah lebih efektif dibandingkan metode pemangkasan ranting dan warna buah terlihat jauh lebih cerah dan menarik.
+</item>
+        <item>1.	Taruhlah bibit yang baru di tanam di tempat teduh atau buatlah Atap
+\n\n2.	Atap dapat di bongkar jika tanaman telap mencapai 4 bulan
+\n\n3.	Tanamlah rumput di sekitarnya untuk menjaga kelembaban tanah
+\n\n4.	Siangi atau bersihkan area sekitar tanaman dari gulma
+\n\n5.	Pada masa awal pertumbuhan, penyiraman dilakukan 2 kali pada pagi dan sore hari, tetapi jaga jangan sampai tergenang air
+\n\n6.	Setelah tanaman berumur sebulan intensitas penyiraman menjadi 3 minggu sekali
+\n\n7.	Segera setelah di bersihkan dan dikeringkan, biji durian sudah bisa ditanam.
+\n\n8.	Beri pupuk NPK, dosis tanaman dengan umur 1 tahun, dosisnya 40 sampai 80 gr/pohon/tahun, tanaman dengan umur 2 tahun, dosisnya 150 sampai 300 gr/pohon/tahun dan tanaman umur 3 – 4 tahun, dosisnya 400 sampai 600 gr/pohon/tahun.
+\n\n9.	Beri pupuk Kompos atau kandang setahun sekali pada akhir musim hujan dengan dosis  15 sampai 20kg/pohon.
+\n\n10.	Lakukan pemangkasan akar, pemangkasan akar mempercepat tanaman untuk berbuah
+</item>
+        <item>1.	Setidaknya 5 jam terkena sinar matahari
+\n\n2.	Pemupukan rutin setiap 4 bulan sekali menggunakan NPK
+\n\n3.	Pemangkasan ranting agar mengurangi resiko terkena serangan penyakit
+\n\n4.	Cek kesehatan daun
+\n\n5.	Penentuan panen yang biasanya 28 sampai 36 minggu terhitung dari benih itu sudah dipanen</item>
+        <item>Pertumbuhan maksimal yang akan didapatkan dari tanaman kelapa ini adalah sekitar 0 – 450 m dpl. Apabila ditanam pada dataran menengah dan dataran tinggi (sekitar 450 – 1000 m dpl) maka tanaman kelapa akan memiliki waktu pembuahan yang tergolong lebih lambat pada tanaman pada umumnya dan memiliki minyak yang rendah.
+</item>
+        <item>1.	Melakukan pemangkasan agar penggunaan energi dari proses fotosintesis lebih efisien sehingga kandungan karbohidrat pada pohon manga akan meningkat dan agar sinar mahari bisa merata.
+\n\n2.	Pemberian nutrisi berupa fosfor dan protein tinggi yang bisa merangsang pembentukan bunga. Bisa menggunakan pupuk organic atau non organic
+\n\n3.	Penyiraman yang dilakukan setiap minggu.
+\n\n4.	Memberikan sayatan pada batang pohon manga agar proses distribusi hasil fotosintesis dari daun menuju akar melambat sehingga karbohidrat akan menumpuk di bagian cabang dan daun.
+\n\n5.	Mengusih hama dengan insektisida dan fungisida
+</item>
+        <item>1.	Pastikan tanaman nanas ditanaman di lahan yang baik.
+\n\n2.	Tanaman ini cocok dengan tanah yang memiliki pH sekitar 5 hingga 6.
+\n\n3.	Jangan menanam tanaman nanas dengan jarak yang terlalu dekat.
+\n\n4.	Bersihkan lahan tanaman dari gulma atau rumput liar yang dapat menggangu perumuhan nanas.
+\n\n5.	Pemupukan dapat dilakukan saat tanaman berusia 2 atau 3 bulan yang dilakukan 3 sampai 4 bulan sekali.
+\n\n6.	Nanas biasanya dipanen pada usia 1 hingga 2 tahun setelah ditanam.
+</item>
+        <item>1.	Memerlukan intesitas cahaya matahari 100% supaya daunnya dapat melakukan fotosintesis dengan lebih optimal
+\n\n2.	Cek kondisi tanah apakah bebas dari penyakit
+\n\n3.	Jangan biarkan air menggenang
+\n\n4.	Pemupukan minimal dua bulan sekali
+\n\n5.	Memakai pupuk pestisida untuk mencegah hama dan penyakit
+\n\n6.	Lakukan pemangkasan supaya bisa tumbuh lebih subur</item>
+        <item>1.	Penyiraman untuk memperoleh rambutan yang sehat dan lebat.
+\n\n2.	Pemupukan dengan pupuk NPK agar pohon menjadi lebih lebat
+\n\n3.	Pemangkasan untuk memperlebat buah pada pohon rambutan
+\n\n4.	Menyemprotkan pestisida pada bagian yang terserang kutu agar terhindar dari penyakit.</item>
+        <item>1.	Melakukan penyiraman karena tanaman ini sangat sensitive dengan ketersediaan air
+\n\n2.	Pemupukan sangat menunjang dalam merangsang stroberi cepat berbuah dengan lebat.
+\n\n3.	Rajin memangkas sulur stroberi karena dapat menghambat atau membebani tanaman stroberi.
+\n\n4.	Membuang daun tua dan rusak agar menghasilkan buah yang berkualitas dan merangsang bunga baru. </item>
+    </string-array>
+    <string-array name="merawatPeneduh">
+        <item>1. Penyiraman : Secara teratur setiap hari
+\n\n2. Pemupukan : Pemupukan secara teratur saat masa pertumbuhan
+\n\n3. Lain – lainnya : Pohon angsana dapat tumbuh dengan baik jika ditanam pada tempat yang terbuka dan sedikit terlindungi dari sinar matahari.
+</item>
+        <item>1. Penyiraman : 2 kali sehari
+\n\n2. Pemupukan : Secara berkala 3 bulan sekali
+\n\n3. Lain lain : penyuburan kembali pada tanah, penimbunan batang dengan tanah agar menghasilkan akar yang baru, dengan tujuan mempercepat pertumbuhan pada tanaman asam jawa.
+</item>
+        <item>1. Penyiraman : Seperlunya saja
+\n\n2. Pemupukan : setiap 1-1,5 bulan sekali.</item>
+        <item>1. Penyiraman : Penyiraman secara rutin 3 kali sehari
+\n\n2. Pemupukan : 2 -3 bulan sekali
+\n\n3. Lain – lain : Anda juga perlu melakukan pemangkasan bunga flamboyan karena bunga ini tumbuh sekitar lima meter per tahunnya.
+Lakukan pemangkasan pada daun bagian atas, tangkai dan batang supaya mempercantik tampilan pohon. Pada saat pohon tumbuh sampai ketinggian 12 meter maka anda tidak perlu merawatnya lagi karena bunga ini sudah bisa mengurus dirinya sendiri
+</item>
+        <item>1. Penyiraman : Secara intensif 3 kali sejahari
+\n\n2. Pemupukan : Pemupukan dengan kandungan NPK kandungan N tinggi pada masa pertumbuhan</item>
+        <item>1. Penyiraman : Setiap hari
+\n\n2. Pemupukan : Minimal 2 bulan sekali
+\n\n3. Lain lainya :Pemangkasan Agar pucuk merah tetap indah dan tetap menghasilkan pucuk-pucuk baru yang berwarna merah, perlu dilakukan pemangkasan secara berkala terhadap daun-daun yang sudah tua. Adapun saat melakukan pemangkasan sebaiknya dilakukan tepat di bagian ruas cabang. Hal tersebut dilakukan agar tunas baru bisa segera tumbuh dari bagian ruas yang telah dipangkas. Pemangkasan tersebut dapat dilakukan secara berkala dengan waktu minimal 2 minggu sekali. selain itu, untuk mendapatkan bentuk tajuk yang indah dari tanaman ini, pangkaslah sesuai keinginan, mulai dari berbentuk kotak, cemara, bulat, ataupun bentuk lainnya.
+</item>
+        <item>1. Penyiraman : Penyiraman secara berskala, Jika tanaman tatebuya sudah tumbuh dengan ketinggian diatas 10m maka penyiraman tidak perlu dilakukan.
+\n\n2. Pemupukan : Pemupukan agar bunga tatebuya tumbuh dengan cepat dan bagus. Pemupukan untuk hasil maksimal bisa dilakukan setiap 3 bulan sekali
+</item>
+        <item>1. Penyiraman : Saat di perlukan
+\\nn2. Pemupukan : 3 bulan sekali </item>
+    </string-array>
+    <string-array name="merawatPewarna">
+        <item>1. Penyiraman : Secara rutin setiap hari
+\n\n2. Pemupukan : Satu tahun setelah tanam, berikan 1 ons NPK 10-10-10 per semak diawal musim penghujan, dan tingkatkan dosis pemupukan 1 ons setiap tahun kemudian untuk maksimum 8 ons untuk semak dewasa.
+\n\n3. Lain – lainnya : Blueberry adalah camilan favorit burung lapar, jadi dianjurkan agar Anda melindungi semak blueberry sebelumnya dengan mengalungkan jaring burung di atas tanaman Anda.
+Jangan biarkan semak untuk menghasilkan buah untuk tahun pertama atau dua setelah tanam. Hal ini memungkinkan tanaman menggunakan energi untuk mendapatkan mapan di rumah baru sebagai gantinya.
+Gugurkan kembali bunga yang berkembang pada tanaman yang baru ditanam untuk menjaga suplai energi untuk pertumbuhan.
+</item>
+        <item>1. Penyiraman : 3 kali sehari
+\n\n2. Pemupukan : Pada masa awal pertumbuhan pupuk yang dibutuhkan harus mengandung banyak unsur nitrogen (N). Pada fase berbunga atau berbuah gunakan pupuk yang banyak mengandung fosfor (P) dan kalium (K). Pemakaian urea tidak dianjurkan untuk memupuk buah naga, karena sering mengakibatkan busuk batang.
+Pemupukan dengan pupuk kompos atau pupuk kandang dilakukan setiap 3 bulan sekali dengan dosis 5-10 kg per lubang tanam. Pada saat berbunga dan berbuah berikan pupuk tambahan NPK dan ZK masing-masing 50 dan 20 gram per lubang tanam. Pada tahun berikutnya perbanyak dosis pemberian pupuk sesuai dengan ukuran tanaman. Pupuk tambahan berupa pupuk organik cair, pupuk hayati atau hormon perangsang buah bisa diberikan untuk memaksimalkan hasil.
+\n\n3. Lain lainnya :Terdapat setidaknya tiga tipe pemangkasan dalam budidaya buah naga, yakni pemangkasan untuk membentuk batang pokok, pemangkasan membentuk cabang produksi dan pemangkasan peremajaan.
+</item>
+        <item>1. Penyiraman : Secara Rutin Setiap Hari
+\n\n2. Pemupukan : Berikan pupuk secara berkala, pupuk diberikan dengan cara dimasukan ke dalam tanah disekitar pohon.
+Pupuk yang di gunakan bisa pupuk kandang ataupun pupuk urea atau bisa juga campuran keduanya
+Pemupukan biasanya dilakukan setahun dua kali . Yaitu pada saat musim hujan, sekitar bulan oktober-november atau pada bulan Maret-April.
+\n\n3. Lain lainya :
+\nPangkaslah pohon kakao. Pemangkasan berguna untuk meningkatkan kualitas dan kuantitas kakao.
+\nPangkaslah dahan-dahan yang tidak produktif atau tidak ada buahnya.
+\nBersihkan tanah di sekitarnya, pastikan tidak ada benalu maupun rumput.
+</item>
+        <item>1. Penyiraman : Lakukann penyiraman secara rutin 1-2 kali sehari, lebih baik lagi jika penyiraman dilakukan dengan cara gembor agar hasilnya lebih maksimal.
+\n\n2. Pemupukan : Dilakukan 1 bulan sekali. Pemupukan dapat menggunakan 20 butir NPK buah + 1 kg kompos/pupuk kandang + 1 sdt POC BMW atau dengan menggunakan 1 sdm KOCOR BMW + 1 sdt POC BMW
+\n\n3. Lain lainnya :  Selain dari pemupukan rutin, berikan pula  ormone perangsang buah. Hormon perangsang buah akan memacu munculnya pembungaan/pembuahan pada tanaman juwet. Hormon perangsang buah yang dapat digunakan seperti POC BMW.Untuk pengaplikasian POC BMW, kita dapat menyemprotkannya ke tanaman juwet setiap 1 bulan sekali dengan dosis 3 tutup POC BMW + 15 liter air.
+</item>
+        <item>1. Penyiraman : Dilakukan saat diperlukan
+\n\n2. Pemupukan : dilakukan saat penanaman awal </item>
+        <item>1. Penyiraman : Secara Rutin
+\n\n2. Pemupukan : maksimal 3 kali untuk menghindari masalah dengan rumput dan terhindar dari penyakit. Anda bisa menggunakan pupuk urea sebagai pupuk susulan jika bunga sudah berumur 3 - 8 minggu. Selanjutnya, berikan bunga pupuk NPK dan urea dengan perbandingan (3:4) saat bunga berumur 1 - 2 tahun, berikan dengan dosis 15 - 25 Gram setiap tanaman.
+\n\n3. Lain laiinnya : Hama yang sering menyerang bunga rosella adalah kutu, belalang dan ulat daun. Oleh karena itu, anda harus melindungi bunga rosella dari serangan hama tersebut. Caranya menggunakan pestisida organik yang terdiri dari campuran sambiloto dan daun mimba, anda tinggal tumbuk halus kedua bahan tersebut lalu tambahkan air 5 liter setiap 100 gram tumbukannya.
+</item>
+        <item>1. Penyiraman : Seperlunya saja
+\n\n2. Pemupukan : 3 bulan sekali</item>
+        <item>1. Penyimpanan : Tanaman ubi jalar tidak memerlukan penyiraman secara rutin, karena tahan terhadap kekeringan. Penyiraman dilakukan jika tanah benar-benar kering atau setidaknya tidak turun hujan dalam waktu 3 minggu terakhir.
+\n\n2. Pemupukan : Secara bertahap</item>
+    </string-array>
+    <string-array name="merawatSerat">
+        <item>1. Penyiraman : Secara teratur untuk menjaga kelembaban tanah, tetapi tidak basah kuyub
+\n\n2. Pemupukan : Tidak memerlukan pupuk jika tanah tidak buruk</item>
+        <item>Serat Jute</item>
+        <item>1. Penyiraman : Seperlunya
+\n\n2. Pemupukan : Waktu Pemupukan
+\nPemupukan I :   dilaksanakan pada saat tanaman berusia 3-4 minggu setelah tanam. Pupuk yang diaplikasikan yaitu pupuk N : 50 Kg/Ha, pupuk P : 75 Kg/Ha, dan pupuk K : 50 Kg/Ha.
+\nPemupukan II :   dilaksanakan pada saat tanaman berusia 6-8 minggu setelah tanam. Pupuk yang diaplikasikan yaitu pupuk N sebanyak 100 Kg/Ha.
+\n\nDosis Pemupukan
+\n•	Urea :   150 Kg/Ha
+\n•	SP-36 :   100 Kg/Ha
+\n•	KCl :   100 Kg/Ha
+\n\nCara Pemupukan
+\n•	Ditugal, yaitu dengan cara membuat lubang yang berjarak 5-10cm dari tanaman, dengan kedalaman kurang lebih 5-7cm. Kemudian masukkan pupuk kedalam lubang dan urug dengan tanah.
+\n•	Kocoran, yaitu dengan cara mencampur pupuk dengan air dan kemudian disiramkan pada tanah dengan
+\n•	jarak 5-10cm dari tanaman. Cara kocoran ini direkomendasikan apabila lahan kesulitan air.
+\n\n3. Lain – lainya : Dilakukan pada saat jumlah cabang telah mencapai 8-10 batang. Hal ini dengan tujuan yaitu :
+\n•	Memperbanyak bunga/boll/buah
+\n•	Memperpendek umur tanaman sehingga prosespanen lebih cepat
+\n•	Buah yang dihasilkan besar-besar
+\n•	Mempermudah perawatan</item>
+        <item>1. Penyiraman : Secara teratur
+\n\n2. Pemupukan : Tidak memerlukan pupuk jika tanah sudah subur</item>
+        <item>1. Penyiraman : Secara teratur
+\n\n2. Pemupukan : Tidak memerlukan pupuk jika tanah sudah subur</item>
+    </string-array>
+    <string-array name="merawatBeracun">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+</resources>

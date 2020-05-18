@@ -14,14 +14,16 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class PlantListAdapter extends RecyclerView.Adapter<PlantListAdapter.MyViewHolder> {
 
-    String name[], asal[];
+    String name[], asal[], fungsi[], merawat[];
     int img[];
     Context context;
-    public PlantListAdapter(Context ct, String[] nama, int gambar[], String daftarAsal[]){
+    public PlantListAdapter(Context ct, String[] nama, int gambar[], String daftarAsal[], String daftarFungsi[], String daftarMerawat[]){
         context = ct;
         name = nama;
         img = gambar;
         asal = daftarAsal;
+        fungsi = daftarFungsi;
+        merawat =  daftarMerawat;
     }
     @NonNull
     @Override
@@ -43,6 +45,8 @@ public class PlantListAdapter extends RecyclerView.Adapter<PlantListAdapter.MyVi
                 intent.putExtra("name", name[position]);
                 intent.putExtra("gambar", img[position]);
                 intent.putExtra("asal", asal[position]);
+                intent.putExtra("fungsi", fungsi[position]);
+                intent.putExtra("merawat", merawat[position]);
                 context.startActivity(intent);
             }
         });

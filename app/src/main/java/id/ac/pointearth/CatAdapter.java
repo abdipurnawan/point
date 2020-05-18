@@ -14,17 +14,19 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class CatAdapter extends RecyclerView.Adapter<CatAdapter.CatViewHolder> {
 
-    String kategori[],daftarTanaman[][], daftarAsal[][];
+    String kategori[],daftarTanaman[][], daftarAsal[][], daftarFungsi[][], daftarMerawat[][];
     int image[], daftarGambar[][];
     Context context;
 
-    public CatAdapter(Context ct, String s1[], int img[], String daftar[][], int gambarTanaman[][], String asalTanaman[][]) {
+    public CatAdapter(Context ct, String s1[], int img[], String daftar[][], int gambarTanaman[][], String asalTanaman[][], String fungsiTanaman[][], String merawatTanaman[][]) {
         context = ct;
         kategori = s1;
         image = img;
         daftarTanaman =  daftar;
         daftarGambar = gambarTanaman;
         daftarAsal = asalTanaman;
+        daftarFungsi = fungsiTanaman;
+        daftarMerawat = merawatTanaman;
     }
 
     @NonNull
@@ -47,6 +49,8 @@ public class CatAdapter extends RecyclerView.Adapter<CatAdapter.CatViewHolder> {
                 intent.putExtra("nama", daftarTanaman[position]);
                 intent.putExtra("gambar", daftarGambar[position]);
                 intent.putExtra("asal", daftarAsal[position]);
+                intent.putExtra("fungsi", daftarFungsi[position]);
+                intent.putExtra("merawat", daftarMerawat[position]);
                 context.startActivity(intent);
             }
         });
