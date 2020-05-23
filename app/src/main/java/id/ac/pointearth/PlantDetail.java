@@ -18,7 +18,7 @@ public class PlantDetail extends AppCompatActivity {
     ImageView gambarDetail;
     TextView namaDetail, asalDetail, fungsiDetail, merawatDetail;
 
-    String nama, asal, fungsi, merawat;
+    String nama, asal, fungsi, merawat, youtube;
     int gambar;
 
     ConstraintLayout expandableView1, expandableView2, expandableView3;
@@ -98,6 +98,7 @@ public class PlantDetail extends AppCompatActivity {
             asal = getIntent().getStringExtra("asal");
             fungsi = getIntent().getStringExtra("fungsi");
             merawat = getIntent().getStringExtra("merawat");
+            youtube = getIntent().getStringExtra("youtube");
         }else{
             Toast.makeText(this, "No Data", Toast.LENGTH_SHORT).show();
         }

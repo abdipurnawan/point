@@ -14,11 +14,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class CatAdapter extends RecyclerView.Adapter<CatAdapter.CatViewHolder> {
 
-    String kategori[],daftarTanaman[][], daftarAsal[][], daftarFungsi[][], daftarMerawat[][];
+    String kategori[],daftarTanaman[][], daftarAsal[][], daftarFungsi[][], daftarMerawat[][], daftarYoutube[][];
     int image[], daftarGambar[][];
     Context context;
 
-    public CatAdapter(Context ct, String s1[], int img[], String daftar[][], int gambarTanaman[][], String asalTanaman[][], String fungsiTanaman[][], String merawatTanaman[][]) {
+    public CatAdapter(Context ct, String s1[], int img[], String daftar[][], int gambarTanaman[][], String asalTanaman[][], String fungsiTanaman[][], String merawatTanaman[][], String youtubeTanaman[][]) {
         context = ct;
         kategori = s1;
         image = img;
@@ -27,6 +27,7 @@ public class CatAdapter extends RecyclerView.Adapter<CatAdapter.CatViewHolder> {
         daftarAsal = asalTanaman;
         daftarFungsi = fungsiTanaman;
         daftarMerawat = merawatTanaman;
+        daftarYoutube = youtubeTanaman;
     }
 
     @NonNull
@@ -51,6 +52,7 @@ public class CatAdapter extends RecyclerView.Adapter<CatAdapter.CatViewHolder> {
                 intent.putExtra("asal", daftarAsal[position]);
                 intent.putExtra("fungsi", daftarFungsi[position]);
                 intent.putExtra("merawat", daftarMerawat[position]);
+                intent.putExtra("youtube", daftarYoutube[position]);
                 context.startActivity(intent);
             }
         });
