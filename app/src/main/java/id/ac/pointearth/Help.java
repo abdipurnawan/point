@@ -6,15 +6,28 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Help extends AppCompatActivity {
 
+    TextView deskripsi, tujuan, cara, jenis, contact;
+    String des, tuj, car, jen, con;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
+
+        deskripsi = findViewById(R.id.deskripsiPoint);
+        tujuan = findViewById(R.id.tujuanPoint);
+        cara = findViewById(R.id.caraPoint);
+        jenis = findViewById(R.id.jenisPoint);
+        contact = findViewById(R.id.contactPoint);
+
+        getData();
+        setData();
 
         //inisialisasi
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
@@ -41,5 +54,21 @@ public class Help extends AppCompatActivity {
                 return false;
             }
         });
+    }
+
+    private void getData(){
+        des = getResources().getString(R.string.deskripsi);
+        tuj = getResources().getString(R.string.tujuan);
+        car = getResources().getString(R.string.cara);
+        jen = getResources().getString(R.string.jenis);
+        con = getResources().getString(R.string.contact);
+    }
+
+    private void setData(){
+        deskripsi.setText(des);
+        tujuan.setText(tuj);
+        cara.setText(car);
+        jenis.setText(jen);
+        contact.setText(con);
     }
 }

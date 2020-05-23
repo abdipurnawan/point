@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deskripsi">
+        Point Earth adalah sebuah aplikasi edukasi dan informasi tentang berbagai jenis tanaman yang ada. Pointearth mejediakan informasi berupa tulisan, gambar, dan video.
+    </string>
+
+    <string name="tujuan">
+        Untuk mengedukasi dan memberi informasi masyarakat tentang berbagai macam jenis tanaman. Selain itu akan memotivasi dengan quotes yang disediakan
+    </string>
+
+    <string name="cara">
+        Cari tanaman apa yang ingin dipelajari berdasarkan kategori yang telah disediakan. Pointearth menyediakan foto, video dan deskripsi untuk media pembelajaran agar lebih jelas dan mudah dimengerti.
+    </string>
+
+    <string name="jenis">
+        Belum, mengingat banyaknya tanaman di bumi. Semua jenis tanaman yang belum tercantum akan diupdate secara berkala.
+    </string>
+
+    <string name="contact">
+        Email: support@pointearth.com
+        \n\nTelp:0361 12345678
+        \n\nAlamat: Gedung Teknologi Informasi, Kampus Unud, Jimbaran
+    </string>
+</resources>
