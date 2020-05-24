@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context=".Help">
 
     <ScrollView
@@ -13,7 +12,8 @@
         android:layout_height="match_parent"
         android:background="@color/grey"
         tools:layout_editor_absoluteX="-41dp"
-        tools:layout_editor_absoluteY="67dp">
+        tools:layout_editor_absoluteY="67dp"
+        android:paddingBottom="?attr/actionBarSize">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
