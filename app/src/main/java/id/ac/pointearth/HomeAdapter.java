@@ -1,5 +1,6 @@
 package id.ac.pointearth;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,44 +10,46 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.MyViewHolder>{
+import java.util.ArrayList;
 
-    public HomeAdapter(int[] arr) {
-        this.arr = arr;
+public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
+
+    ArrayList<MainModel> mainModels;
+    Context context;
+
+    public HomeAdapter(Context context, ArrayList<MainModel> mainModels) {
+        this.context = context;
+        this.mainModels = mainModels;
     }
 
-    int []arr;
-
-    String []txt = {"Adenium", "Adiantum", "Anthurium", "Hydrangea",
-            "Mandevila", "Palem Hias", "Puring", "Sansevieria"};
     @NonNull
     @Override
-    public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.single_view, parent, false);
-        MyViewHolder myViewHolder=new MyViewHolder(view);
-        return myViewHolder;
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.single_view, parent, false);
+        return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-
-        holder.imageView.setImageResource(arr[position]);
-        holder.textView.setText(txt[position]);
+    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        holder.imageView.setImageResource(mainModels.get(position).getGambar());
+        holder.textView.setText(mainModels.get(position).getDeskripsi());
     }
 
     @Override
     public int getItemCount() {
-        return arr.length;
+        return mainModels.size();
     }
-    public class MyViewHolder extends RecyclerView.ViewHolder{
 
+    public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView imageView;
         TextView textView;
-        public MyViewHolder(@NonNull View itemView) {
-            super(itemView);
-            imageView=itemView.findViewById(R.id.imageView);
-            textView=itemView.findViewById(R.id.textView);
 
+        public ViewHolder(@NonNull View itemView) {
+            super(itemView);
+
+            imageView = itemView.findViewById(R.id.image_view);
+            textView = itemView.findViewById(R.id.text_view);
         }
     }
 }

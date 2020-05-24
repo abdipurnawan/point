@@ -2,7 +2,9 @@ package id.ac.pointearth;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
@@ -11,28 +13,53 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
-    private RecyclerView recyclerView;
-    RecyclerView.LayoutManager layoutManager;
-    HomeAdapter homeAdapter;
+    RecyclerView recyclerView;
+//    ViewFlipper viewFlipper;
 
-    int []arr = {R.drawable.adenium, R.drawable.adiantum, R.drawable.anthurium, R.drawable.hydrangea,
-            R.drawable.mandevila, R.drawable.palemhias, R.drawable.puring, R.drawable.sansevieria};
-
+    ArrayList<MainModel> mainModels;
+    HomeAdapter mainAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        recyclerView=findViewById(R.id.recyclerview);
-        layoutManager=new GridLayoutManager(this, 2);
-        recyclerView.setLayoutManager(layoutManager);
-        homeAdapter=new HomeAdapter(arr);
+        recyclerView = findViewById(R.id.recycler_view);
 
-        recyclerView.setAdapter(homeAdapter);
-        recyclerView.setHasFixedSize(true);
+//        viewFlipper = findViewById(R.id.v_flipper);
+
+        Integer[] Gambar = {R.drawable.quotes1, R.drawable.quotes2, R.drawable.quotes3,
+                R.drawable.quotes4, R.drawable.quotes5};
+
+//        Integer[] gambarSlide = {R.drawable.tanaman2, R.drawable.tanaman3, R.drawable.tanaman4};
+
+        String[] Deskripsi = {"tanaman", "tanaman", "tanaman", "tanaman", "tanaman"};
+
+        mainModels = new ArrayList<>();
+        int i;
+        for (i = 0; i < Gambar.length; i++) {
+            MainModel model = new MainModel(Gambar[i], Deskripsi[i]);
+            mainModels.add(model);
+        }
+
+//        for (int gambarSlide)
+
+        //design horizontal layout
+        LinearLayoutManager layoutManager = new LinearLayoutManager(
+                MainActivity.this, LinearLayoutManager.HORIZONTAL, false
+        );
+        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+
+        mainAdapter = new HomeAdapter(MainActivity.this, mainModels);
+        recyclerView.setAdapter(mainAdapter);
+
+
+
 
         //inisialisasi
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
