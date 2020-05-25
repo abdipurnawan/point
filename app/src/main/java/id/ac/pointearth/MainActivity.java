@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
 //        Integer[] gambarSlide = {R.drawable.tanaman2, R.drawable.tanaman3, R.drawable.tanaman4};
 
-        String[] Deskripsi = {"tanaman", "tanaman", "tanaman", "tanaman", "tanaman"};
+        String[] Deskripsi = {"Meminjam", "Hiduplah", "Terakhir", "Keindahan", "Jika Aku"};
 
         mainModels = new ArrayList<>();
         int i;
