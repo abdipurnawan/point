@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string-array name="namaQuotes">
+        <item>Meminjam</item>
+        <item>Hiduplah</item>
+        <item>Terakhir</item>
+        <item>Keindahan</item>
+        <item>Jika Aku</item>
+    </string-array>
+    <string-array name="deskripsiQuotes">
+        <item>Kita tidak mewarisi bumi dari nenek moyang , tapi kita meminjamnya dari anak cucu\n\nBumi beserta isinya, termasuk tumbuhan bukanlah warisan dari manusia generasi sebelumnya, tetapi bumi ini hanya kita pinjam dari masa depan generasi anak dan cucu kita kelak. Salam Lestari</item>
+        <item>Hiduplah kamu sebagai manusia sebagaimana pohon yang berbuah, mereka melemparinya dengan batu, tetapi ia membalasnya dengan buah.\n\nHidup seperti pohon yang berbuah memiliki arti kebermanfaatan untuk banyak orang, terlepas orang lain memperlakukan kita.\n\nBaik buruk perlakuan orang lain terhadap kita bukanlah sebuah masalah, akan tetapi yang jadi persoalan bagaimana kita memperlakukan orang lain dengan baik. Salam Lestari</item>
+        <item>Ketika pohon terakhir ditebang, ketika sungai terakhir dikosongkan, ketika ikan terakhir ditangkap, Barulah manusia akan menyadari bahwa dia tidak dapat memakan uang.\n\nJika boleh jujur, manusia itu memang serakah, bagaimana tidak, mereka menguras dan menghabiskan sumberdaya tanpa diperhatikan sedikit pun keadaan dunia itu.\n\nMereka akan sadar ketika sudah tidak terdapat apapun di dunia, yang ada hanya bencana silih berganti.\n\nMari kita merenung sebentar, menyelami diri sendiri lebih dalam mengenai ketamakan dan keserakahan manusia.</item>
+        <item>Dengan memetik kelopaknya, kamu tidak mengumpulkan keindahan bunga.\n\nDengan menebang pohon berlebihan atau bahkan tanpa menanamnya kembali kamu tidak akan bisa lagi melihat keindahan bumi. Atau bahkan akan menimbulkan penderitaan bagi semua makhluk hidup di bumi, termasuk manusia</item>
+        <item>Jika aku adalah pohon, aku tidak akan punya alasan untuk mencintai manusia.\n\nKalimat tersebut merupakan tamparan untuk keserakahan manusia yang selalu menghabiakan banyak pohon setiap harinya. Walau ditanam kembalipun tetap saja ia perlu waktu bertahun tahun untuk tumbuh. Jika pohon musnah, jangan harap ada kehidupan lagi.</item>
+    </string-array>
+</resources>

@@ -18,48 +18,27 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
-//    ViewFlipper viewFlipper;
-
-    ArrayList<MainModel> mainModels;
-    HomeAdapter mainAdapter;
+    HomeAdapter homeAdapter;
+    int Gambar[] = {R.drawable.quotes1, R.drawable.quotes2, R.drawable.quotes3,
+            R.drawable.quotes4, R.drawable.quotes5};
+    String Nama[], Deskripsi[];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         recyclerView = findViewById(R.id.recycler_view);
 
-//        viewFlipper = findViewById(R.id.v_flipper);
+        Nama = getResources().getStringArray(R.array.namaQuotes);
+        Deskripsi = getResources().getStringArray(R.array.deskripsiQuotes);
 
-        Integer[] Gambar = {R.drawable.quotes1, R.drawable.quotes2, R.drawable.quotes3,
-                R.drawable.quotes4, R.drawable.quotes5};
-
-//        Integer[] gambarSlide = {R.drawable.tanaman2, R.drawable.tanaman3, R.drawable.tanaman4};
-
-        String[] Deskripsi = {"Meminjam", "Hiduplah", "Terakhir", "Keindahan", "Jika Aku"};
-
-        mainModels = new ArrayList<>();
-        int i;
-        for (i = 0; i < Gambar.length; i++) {
-            MainModel model = new MainModel(Gambar[i], Deskripsi[i]);
-            mainModels.add(model);
-        }
-
-//        for (int gambarSlide)
-
-        //design horizontal layout
         LinearLayoutManager layoutManager = new LinearLayoutManager(
                 MainActivity.this, LinearLayoutManager.HORIZONTAL, false
         );
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
-
-        mainAdapter = new HomeAdapter(MainActivity.this, mainModels);
-        recyclerView.setAdapter(mainAdapter);
-
-
-
+        homeAdapter = new HomeAdapter(this, Gambar, Deskripsi, Nama);
+        recyclerView.setAdapter(homeAdapter);
 
         //inisialisasi
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
