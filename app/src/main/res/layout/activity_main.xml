@@ -54,6 +54,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="0dp"
                     android:text="PointEarth"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:textColor="@color/black"
                     android:textAlignment="center"
                     android:textSize="35sp"
                     android:textStyle="bold" />
@@ -63,6 +65,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/product_sans_regular"
+                    android:textColor="@color/black"
                     android:text="Stop building a spaceship to Mars and just plant some damn TREES."
                     android:textAlignment="center"
                     android:textSize="30dp" />
@@ -88,6 +92,8 @@
                         android:layout_marginTop="12dp"
                         android:text="Quotes"
                         android:textSize="20dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/black"
                         android:textStyle="bold"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />

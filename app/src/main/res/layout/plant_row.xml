@@ -46,6 +46,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
                 android:text="TextView"
+                android:fontFamily="@font/product_sans_bold"
+                android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"

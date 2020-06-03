@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/text_view"
             android:text="Tumbuhan"
+            android:fontFamily="@font/product_sans_regular"
             android:textSize="14sp"
             android:textStyle="bold"
             android:layout_marginBottom="12dp"/>

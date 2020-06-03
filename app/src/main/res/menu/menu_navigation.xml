@@ -4,15 +4,18 @@
     <item
         android:id="@+id/home"
         android:title="Home"
+        android:fontFamily="@font/product_sans_regular"
         android:icon="@drawable/ic_home"/>
 
     <item
         android:id="@+id/category"
         android:title="Category"
+        android:fontFamily="@font/product_sans_regular"
         android:icon="@drawable/ic_dashboard"/>
 
     <item
         android:id="@+id/help"
         android:title="Help"
+        android:fontFamily="@font/product_sans_regular"
         android:icon="@drawable/ic_help"/>
 </menu>

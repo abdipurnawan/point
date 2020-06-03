@@ -19,11 +19,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <VideoView
-                android:id="@+id/videoView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -58,6 +53,8 @@
                         android:text="TextView"
                         android:textSize="24sp"
                         android:textStyle="bold"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:textColor="@color/black"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.498"
@@ -92,6 +89,8 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="13dp"
                         android:text="Deskripsi"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:textColor="@color/black"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -127,6 +126,8 @@
                             android:layout_marginTop="10dp"
                             android:paddingEnd="16dp"
                             android:text="TextView"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/product_sans_regular"
                             android:textSize="14sp"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
@@ -160,6 +161,8 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="13dp"
                         android:text="Cara Merawat"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:textColor="@color/black"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -195,6 +198,8 @@
                             android:layout_marginTop="10dp"
                             android:paddingEnd="16dp"
                             android:text="TextView"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:textColor="@color/black"
                             android:textSize="14sp"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
@@ -229,6 +234,8 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="13dp"
                         android:text="Fungsi"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:textColor="@color/black"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -264,6 +271,8 @@
                             android:layout_marginTop="10dp"
                             android:paddingEnd="16dp"
                             android:text="TextView"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:textColor="@color/black"
                             android:textSize="14sp"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
