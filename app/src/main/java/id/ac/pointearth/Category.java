@@ -19,7 +19,7 @@ public class Category extends AppCompatActivity {
     String asalHias[], asalAkuatik[], asalObat[], asalBuah[], asalPeneduh[], asalPewarna[], asalSerat[], asalBeracun[], daftarAsal[][];
     String fungsiHias[], fungsiAkuatik[], fungsiObat[], fungsiBuah[], fungsiPeneduh[], fungsiPewarna[], fungsiSerat[], fungsiBeracun[], daftarFungsi[][];
     String merawatHias[], merawatAkuatik[], merawatObat[], merawatBuah[], merawatPeneduh[], merawatPewarna[], merawatSerat[], merawatBeracun[], daftarMerawat[][];
-    String youtubeHias[], youtubeAkuatik[], youtubeObat[], youtubeBuah[], youtubePeneduh[], youtubePewarna[], youtubeSerat[], youtubeBeracun[], daftarYoutube[][];
+
 
     int image[] = {R.drawable.kategori_hias, R.drawable.kategori_akuatik, R.drawable.kategori_obat, R.drawable.kategori_buah,
             R.drawable.kategori_peneduh, R.drawable.kategori_pewarna, R.drawable.kategori_serat, R.drawable.kategori_beracun};
@@ -37,9 +37,8 @@ public class Category extends AppCompatActivity {
         getAsal();
         getFungsi();
         getCaraMerawat();
-        getYoutube();
 
-        CatAdapter catAdapter = new CatAdapter(this, s1, image, daftar, daftarImage, daftarAsal, daftarFungsi, daftarMerawat, daftarMerawat);
+        CatAdapter catAdapter = new CatAdapter(this, s1, image, daftar, daftarImage, daftarAsal, daftarFungsi, daftarMerawat);
         recyclerView.setAdapter(catAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -139,17 +138,5 @@ public class Category extends AppCompatActivity {
         merawatSerat = getResources().getStringArray(R.array.merawatSerat);
         merawatBeracun = getResources().getStringArray(R.array.merawatBeracun);
         daftarMerawat = new String[][]{merawatHias, merawatAkuatik, merawatObat, merawatBuah, merawatPeneduh, merawatPewarna, merawatSerat, merawatBeracun};
-    }
-
-    private void getYoutube(){
-        youtubeHias = getResources().getStringArray(R.array.youtubeHias);
-        youtubeAkuatik = getResources().getStringArray(R.array.youtubeAkuatik);
-        youtubeObat = getResources().getStringArray(R.array.youtubeObat);
-        youtubeBuah = getResources().getStringArray(R.array.youtubeBuah);
-        youtubePeneduh = getResources().getStringArray(R.array.youtubePeneduh);
-        youtubePewarna = getResources().getStringArray(R.array.youtubePewarna);
-        youtubeSerat = getResources().getStringArray(R.array.youtubeSerat);
-        youtubeBeracun = getResources().getStringArray(R.array.youtubeBeracun);
-        daftarYoutube = new String[][]{youtubeHias, youtubeAkuatik, youtubeObat, youtubeBuah, youtubePeneduh, youtubePewarna, youtubeSerat, youtubeBeracun};
     }
 }

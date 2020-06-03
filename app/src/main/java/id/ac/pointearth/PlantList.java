@@ -15,7 +15,7 @@ public class PlantList extends AppCompatActivity {
     RecyclerView recyclerView;
 
     int imagee;
-    String nama[], asal[], fungsi[], merawat[], youtube[];
+    String nama[], asal[], fungsi[], merawat[];
     int gambar[];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class PlantList extends AppCompatActivity {
         setContentView(R.layout.activity_plant_list);
         getData();
         recyclerView = findViewById(R.id.recyclerviewTanaman);
-        PlantListAdapter plantListAdapter = new PlantListAdapter(this, nama, gambar, asal, fungsi, merawat, youtube);
+        PlantListAdapter plantListAdapter = new PlantListAdapter(this, nama, gambar, asal, fungsi, merawat);
         recyclerView.setAdapter(plantListAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -31,13 +31,12 @@ public class PlantList extends AppCompatActivity {
 
     }
     private void getData(){
-        if(getIntent().hasExtra("nama") && getIntent().hasExtra("gambar") && getIntent().hasExtra("asal")){
+        if(getIntent().hasExtra("nama") && getIntent().hasExtra("gambar") && getIntent().hasExtra("asal") && getIntent().hasExtra("fungsi") && getIntent().hasExtra("merawat")){
             nama = getIntent().getStringArrayExtra("nama");
             gambar = getIntent().getIntArrayExtra("gambar");
             asal = getIntent().getStringArrayExtra("asal");
             fungsi = getIntent().getStringArrayExtra("fungsi");
             merawat = getIntent().getStringArrayExtra("merawat");
-            youtube = getIntent().getStringArrayExtra("youtube");
         }else{
             Toast.makeText(this, "No Data", Toast.LENGTH_SHORT).show();
         }

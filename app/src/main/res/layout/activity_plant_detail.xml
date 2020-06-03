@@ -128,7 +128,7 @@
                             android:text="TextView"
                             android:textColor="@color/black"
                             android:fontFamily="@font/product_sans_regular"
-                            android:textSize="14sp"
+                            android:textSize="16sp"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
@@ -200,7 +200,7 @@
                             android:text="TextView"
                             android:fontFamily="@font/product_sans_regular"
                             android:textColor="@color/black"
-                            android:textSize="14sp"
+                            android:textSize="16sp"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
@@ -273,7 +273,7 @@
                             android:text="TextView"
                             android:fontFamily="@font/product_sans_regular"
                             android:textColor="@color/black"
-                            android:textSize="14sp"
+                            android:textSize="16sp"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
